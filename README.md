@@ -20,32 +20,32 @@ Detecting the pupil center plays a key role in human-computer interaction, espec
 
 ### <u>Overall Workflow of The Proposed Method</u>
 
-<p align="center"><img src="figure/overall_workflow.png" width="900"></p>
+<p align="center"><img src="figure/overall_workflow.png" width="600"></p>
 
 ### <u>Example object O that satisfies convex shape condition and does not satisfy convex shape condition.</u>
 
-<p align="center"><img src="figure/convexshape.png" width="900"></p>
+<p align="center"><img src="figure/convexshape.png" width="600"></p>
 
 Example object O that satisfies convex shape condition and does not satisfy convex shape condition.
 
 We add a convex-shape regularization term that any line connecting two arbitrary points of the segmentation region is inside the region. The entire loss term incorporating the convex shape prior is
 
-<p align="center"><img src="figure/lossterm.png"></p>
+<p align="center"><img src="figure/lossterm.png" width="400"></p>
 
 where
 
-<p align="center"><img src="figure/lossterm2.png"></p>
+<p align="center"><img src="figure/lossterm2.png" width="400"></p>
 
 ## Experimental Results
 
 **Performance comparison on each data sequence from ExCuSe \& ElSe, in terms of Detection rate ($\%$) allowing 5-pixel error tolerance. In the case of PupilNet*, we report the performance shown in the original publication.**
 
-<p align="center"><img src="figure/result_table.png" width="900"></p>
-<p align="center"><img src="figure/result_table2.png" width="900"></p>
+<p align="center"><img src="figure/result_table.png" width="450"></p>
+<p align="center"><img src="figure/result_table2.png" width="450"></p>
 
 ## Visualized Results
 
-<p align="center"><img src="figure/convex_qualitative.png" width="900"></p>
+<p align="center"><img src="figure/convex_qualitative.png" width="600"></p>
 
 Qualitative comparison of segmentation results with/without regularization term: (a) input image with ground truth (b) result with only unary term (c) result with additional regularization term that encodes the convex shape prior. Numbers on (b),(c) represent error of estimated pupil center position.
 <br><br>
@@ -58,7 +58,7 @@ Clone this repo.
 
 ```
 git clone http://github.com/jaegal88/pupil-shape-prior.git
-cd ShapePrior/
+cd pupil-shape-prior/
 ```
 
 ### Test
