@@ -34,7 +34,7 @@ We add a convex-shape regularization term that any line connecting two arbitrary
 
 where
 
-<p align="center"><img src="figure/lossterm2.png" width="400"></p>
+<p align="center"><img src="figure/lossterm2.png" width="300"></p>
 
 ## Experimental Results
 
