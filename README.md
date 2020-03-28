@@ -38,7 +38,7 @@ where
 
 ## Experimental Results
 
-**Performance comparison on each data sequence from ExCuSe \& ElSe, in terms of Detection rate ($\%$) allowing 5-pixel error tolerance. In the case of PupilNet*, we report the performance shown in the original publication.**
+**Performance comparison on each data sequence from ExCuSe \& ElSe, in terms of Detection rate (\%) allowing 5-pixel error tolerance. In the case of PupilNet*, we report the performance shown in the original publication.**
 
 <p align="center"><img src="figure/result_table.png" width="450"></p>
 <p align="center"><img src="figure/result_table2.png" width="450"></p>
