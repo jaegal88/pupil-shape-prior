@@ -1,6 +1,6 @@
 # Noise-Robust Pupil Center Detection through CNN-Based Segmentation with Shape-Prior Loss
 
-Sang Yoon Han, Hyuk Jin Kwon, Yoonsik Kim, and Nam Ik cho
+Sang Yoon Han, Hyuk Jin Kwon, Yoonsik Kim, and Nam Ik Cho
 
 [[Paper]](https://~)
 
