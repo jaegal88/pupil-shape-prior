@@ -61,11 +61,28 @@ git clone http://github.com/jaegal88/pupil-shape-prior.git
 cd pupil-shape-prior/
 ```
 
+Download & Unzip dataset on pupil-shape-prior folder and Make tfRecords
+
+```
+python make_TFrecord_Segmentation_ExCuSe_Augmented.py
+```
+
+Learns model for validate each dataset (Cross Validation)
+
+```
+python make_TFrecord_Segmentation_ExCuSe_Augmented.py --cross_val_num 0
+```
+
 ### Test
+
+```
+python UNet_test_detect_rate.py --cross_val_num 0
+```
 
 ## Dataset
 
 [**Pupil Binary Label Dataset**](https://drive.google.com/file/d/1TfCDiw7mRAbf2JA6tng7y3WC3PLF7pXv/view?usp=sharing)
+[**Pupil Center Position Label**](https://drive.google.com/file/d/1ZaQ72lnGUtN-Uxdbn-hVFc4PmU0cMCPw/view?usp=sharing)
 
 
 ## Citation
