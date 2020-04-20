@@ -95,7 +95,7 @@ please cite the following paper:
   author={Han, Sang Yoon and Kwon, Hyuk Jin and Kim, Yoonsik and Cho, Nam Ik},
   journal={IEEE Access},
   volume={8},
-  pages={177427--177437},
+  pages={64739--64749},
   year={2020},
   publisher={IEEE}
 }
