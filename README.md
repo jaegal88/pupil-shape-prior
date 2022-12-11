@@ -81,7 +81,8 @@ python UNet_test_detect_rate.py --cross_val_num 0
 
 ## Dataset
 
-[**Pupil Binary Label Dataset**](https://drive.google.com/file/d/1suzPpvTBITa2vlPwPpg-naLlPQrlIccw/view?usp=share_link)
+[**ExCuSe Binary Label**](https://drive.google.com/file/d/1suzPpvTBITa2vlPwPpg-naLlPQrlIccw/view?usp=share_link)
+[**Our Own Binary Dataset(training)**](https://drive.google.com/file/d/1ycuBK7KQ8rpiU8XCCJcr5dXe-cPFGk6V/view?usp=share_link)
 
 ## Citation
 When you use data or codes in this site,
